@@ -1,0 +1,170 @@
+<http://localhost:3030/student#STUDENT>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#subClassOf>
+                <http://localhost:3030/student#PERSON> .
+
+<http://localhost:3030/student#1BI18CS099>
+        a       <http://localhost:3030/student#STUDENT> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>
+                "TEST1" ;
+        <http://localhost:3030/student#PROCTOR>
+                <http://localhost:3030/student#1BI18CS099_PROCTOR> ;
+        <http://localhost:3030/student#USN>
+                "1BI18CS099" ;
+        <http://localhost:3030/student#currentSemester>
+                6 ;
+        <http://localhost:3030/student#dob>
+                "1999-11-09" ;
+        <http://localhost:3030/student#email>
+                "email@gsome.com" ;
+        <http://localhost:3030/student#name>
+                "NIKHIL V" ;
+        <http://localhost:3030/student#phone>
+                "9686872937" ;
+        <http://localhost:3030/student#tests>
+                <http://localhost:3030/student#1BI18CS099_TEST1> .
+
+<http://localhost:3030/student#STAFF>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#subClassOf>
+                <http://localhost:3030/student#PERSON> .
+
+<http://localhost:3030/student#NETRAVATHI>
+        a       <http://localhost:3030/student#STAFF> ;
+        <http://localhost:3030/student#STAFFID>
+                "1BISTAFF2001" ;
+        <http://localhost:3030/student#dob>
+                "1974-11-21" ;
+        <http://localhost:3030/student#email>
+                "someone@gmail.com" ;
+        <http://localhost:3030/student#name>
+                "NETRAVATHI V" ;
+        <http://localhost:3030/student#phone>
+                "0976542345" .
+
+<http://localhost:3030/student#1BI18CS099_PROCTOR>
+        <http://localhost:3030/student#HAS_PROCTOR>
+                <http://localhost:3030/student#NETRAVATHI> ;
+        <http://localhost:3030/student#startDate>
+                "2021-06-01" .
+
+<http://localhost:3030/student#1BI18CS093>
+        a       <http://localhost:3030/student#STUDENT> ;
+        <http://localhost:3030/student#PROCTOR>
+                <http://localhost:3030/student#1BI18CS093_PROCTOR> ;
+        <http://localhost:3030/student#USN>
+                "1BI18CS093" ;
+        <http://localhost:3030/student#currentSemester>
+                6 ;
+        <http://localhost:3030/student#dob>
+                "1999-11-09" ;
+        <http://localhost:3030/student#email>
+                "email@ERTEme.com" ;
+        <http://localhost:3030/student#name>
+                "NADRENDRA V" ;
+        <http://localhost:3030/student#phone>
+                "968687545" .
+
+<http://localhost:3030/student#1BI18CS093_PROCTOR>
+        <http://localhost:3030/student#HAS_PROCTOR>
+                <http://localhost:3030/student#NETRAVATHI> ;
+        <http://localhost:3030/student#startDate>
+                "2020-06-01" .
+
+<http://localhost:3030/student#PRATHIMA>
+        a       <http://localhost:3030/student#STAFF> ;
+        <http://localhost:3030/student#STAFFID>
+                "1BISTAFF2002" ;
+        <http://localhost:3030/student#dob>
+                "1976-11-21" ;
+        <http://localhost:3030/student#email>
+                "someone123@gmail.com" ;
+        <http://localhost:3030/student#name>
+                "PRATHIMA M G" ;
+        <http://localhost:3030/student#phone>
+                "1976542345" .
+
+<http://localhost:3030/student#1BI18CS098>
+        a       <http://localhost:3030/student#STUDENT> ;
+        <http://localhost:3030/student#USN>
+                "1BI18CS098" ;
+        <http://localhost:3030/student#currentSemester>
+                6 ;
+        <http://localhost:3030/student#dob>
+                "2000-12-12" ;
+        <http://localhost:3030/student#email>
+                "email@ERTESEJRGe.com" ;
+        <http://localhost:3030/student#name>
+                "NIKHIL HP" ;
+        <http://localhost:3030/student#phone>
+                "968687543" .
+
+<http://localhost:3030/student#1BI18CS117>
+        a       <http://localhost:3030/student#STUDENT> ;
+        <http://localhost:3030/student#USN>
+                "1BI18CS117" ;
+        <http://localhost:3030/student#currentSemester>
+                6 ;
+        <http://localhost:3030/student#dob>
+                "2000-12-13" ;
+        <http://localhost:3030/student#email>
+                "email@ERTEme123.com" ;
+        <http://localhost:3030/student#name>
+                "R SAI VAMSHI" ;
+        <http://localhost:3030/student#phone>
+                "967687455" .
+
+<http://localhost:3030/student#18CS61>
+        a       <http://localhost:3030/student#SUBJECT> .
+
+<http://localhost:3030/student#18CS62>
+        a       <http://localhost:3030/student#SUBJECT> .
+
+<http://localhost:3030/student#18CS63>
+        a       <http://localhost:3030/student#SUBJECT> .
+
+<http://localhost:3030/student#18CS641>
+        a       <http://localhost:3030/student#SUBJECT> .
+
+<http://localhost:3030/student#18CS644>
+        a       <http://localhost:3030/student#SUBJECT> .
+
+<http://localhost:3030/student#18CS645>
+        a       <http://localhost:3030/student#SUBJECT> .
+
+<http://localhost:3030/student#18MAT653>
+        a       <http://localhost:3030/student#SUBJECT> .
+
+<http://localhost:3030/student#1BI18CS099_TEST1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>
+                "TEST1" ;
+        <http://localhost:3030/student#score>
+                <http://localhost:3030/student#1BI18CS099_TEST1_18CS61> , <http://localhost:3030/student#1BI18CS099_TEST1_18CS62> , <http://localhost:3030/student#1BI18CS099_TEST1_18CS63> , <http://localhost:3030/student#1BI18CS099_TEST1_18CS664> , <http://localhost:3030/student#1BI18CS099_TEST1_18MAT653> .
+
+<http://localhost:3030/student#1BI18CS099_TEST1_18CS61>
+        <http://localhost:3030/student#marks>
+                27 ;
+        <http://localhost:3030/student#subject>
+                <http://localhost:3030/student#18CS61> .
+
+<http://localhost:3030/student#1BI18CS099_TEST1_18CS62>
+        <http://localhost:3030/student#marks>
+                26 ;
+        <http://localhost:3030/student#subject>
+                <http://localhost:3030/student#18CS62> .
+
+<http://localhost:3030/student#1BI18CS099_TEST1_18CS63>
+        <http://localhost:3030/student#marks>
+                30 ;
+        <http://localhost:3030/student#subject>
+                <http://localhost:3030/student#18CS63> .
+
+<http://localhost:3030/student#1BI18CS099_TEST1_18CS664>
+        <http://localhost:3030/student#marks>
+                30 ;
+        <http://localhost:3030/student#subject>
+                <http://localhost:3030/student#18CS664> .
+
+<http://localhost:3030/student#1BI18CS099_TEST1_18MAT653>
+        <http://localhost:3030/student#marks>
+                30 ;
+        <http://localhost:3030/student#subject>
+                <http://localhost:3030/student#18MAT653> .

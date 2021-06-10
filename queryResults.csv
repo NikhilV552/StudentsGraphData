@@ -1,0 +1,24 @@
+,S,,,P,,,O
+,http://localhost:3030/demo#NIKHIL_V,,,http://localhost:3030/demo#age,,,19
+,http://localhost:3030/demo#NIKHIL_V,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,,http://localhost:3030/demo#PERSON
+,http://localhost:3030/demo#NIKHIL_V,,,http://localhost:3030/demo#FN,,,NIKHIL
+,http://localhost:3030/demo#NIKHIL_V,,,http://localhost:3030/demo#LN,,,V
+,http://localhost:3030/demo#NIKHIL_V,,,http://localhost:3030/demo#dob,,,1999-11-09
+,http://localhost:3030/demo#NIKHIL_V,,,http://localhost:3030/demo#FRIEND,,,http://localhost:3030/demo#NARENDRA_V
+,http://localhost:3030/demo#NARENDRA_V,,,http://localhost:3030/demo#age,,,21
+,http://localhost:3030/demo#NARENDRA_V,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,,http://localhost:3030/demo#PERSON
+,http://localhost:3030/demo#NARENDRA_V,,,http://localhost:3030/demo#FN,,,NARENDRA
+,http://localhost:3030/demo#NARENDRA_V,,,http://localhost:3030/demo#LN,,,V
+,http://localhost:3030/demo#NARENDRA_V,,,http://localhost:3030/demo#dob,,,2000-09-12
+,http://localhost:3030/demo#NARENDRA_V,,,http://localhost:3030/demo#FRIEND,,,http://localhost:3030/demo#VAMSHI
+,http://localhost:3030/demo#NIKHIL_H_P,,,http://localhost:3030/demo#age,,,21
+,http://localhost:3030/demo#NIKHIL_H_P,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,,http://localhost:3030/demo#PERSON
+,http://localhost:3030/demo#NIKHIL_H_P,,,http://localhost:3030/demo#FN,,,NIKHIL
+,http://localhost:3030/demo#NIKHIL_H_P,,,http://localhost:3030/demo#LN,,,H P
+,http://localhost:3030/demo#NIKHIL_H_P,,,http://localhost:3030/demo#dob,,,2000-12-12
+,http://localhost:3030/demo#VAMSHI,,,http://localhost:3030/demo#age,,,16
+,http://localhost:3030/demo#VAMSHI,,,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,,http://localhost:3030/demo#PERSON
+,http://localhost:3030/demo#VAMSHI,,,http://localhost:3030/demo#FN,,,R SAI
+,http://localhost:3030/demo#VAMSHI,,,http://localhost:3030/demo#LN,,,VAMSHI
+,http://localhost:3030/demo#VAMSHI,,,http://localhost:3030/demo#dob,,,2000-12-13
+,http://localhost:3030/demo#VAMSHI,,,http://localhost:3030/demo#FRIEND,,,http://localhost:3030/demo#NIKHIL_H_P
